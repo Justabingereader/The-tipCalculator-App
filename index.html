@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>The Tip-Calculator app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-header">
+            <h2><strong>TIP CALCULATOR</strong></h2>
+        </div>
+        <div class="content-body">
+            <h3 id="textBill">TOTAL BILL</h3>
+            <input type="number" id="bill">
+            <br><br>
+            <h3 id="textPersons">Number of persons</h3>
+            <input type="number" id="persons">
+            <br><br>
+            <h3 id="textTip">How much would you like to tip?(%)</h3>
+            <select id="dropdown">
+                <option id="Five" class="tip">5</option>
+                <option id="Ten" class="tip">10</option>
+                <option id="Fifteen" class="tip">15</option>
+                <option id="Twenty" class="tip">20</option>
+                <option id="Twenty-five" class="tip">25</option>
+                <option id="Thirty" class="tip">30</option>
+            </select>
+            <br><br>
+            <button id="calculate">Calculate Total</button>
+            <br><br>
+            <p id="footer"></p>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

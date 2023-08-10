@@ -1,0 +1,3 @@
+# Header
+
+This project managed to be equally as hard as the calculator project in its own way even tho i thought it would be a breeze, i had to consult multiple source such as google, chatgpt and old tutorial videos to finally get the logic, as it turns out i was complicating things by trying to nest a foreach loop in an event listener when all i needed to do was extract value out of all the input gotten, calculate it and assign it to a variable and then display the output, and that took quite a while to figure out, but it was successfully figured out and i have now finished the project.
