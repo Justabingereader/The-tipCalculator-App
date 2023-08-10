@@ -15,7 +15,7 @@ calculate.addEventListener('click', () => {
     }
      else {
     const calculatedValue = (bill * (tip/100)) / persons;
-    const totalReturn = calculatedValue.toFixed(2);
+    const totalReturn = Math.round(calculatedValue);
     placeholder.textContent = `Each person should pay: NGN${totalReturn}.`;
     }
 });
